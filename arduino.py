@@ -7,7 +7,7 @@ import time
 
 def right_process(songs, song_index, process):
     song_index+=1
-    if song_index > len(songs):
+    if song_index > len(songs) - 1:
         song_index = 0
 
     try:
